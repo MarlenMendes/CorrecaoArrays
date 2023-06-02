@@ -1,0 +1,58 @@
+Correção exercícios
+
+1. Escreva um programa para remover um elemento específico de uma lista. 
+
+R: Aqui a função remover_elemento recebeu uma lista e um elemento como argumentos. Verificou se o elemento está presente na lista usando o operador in. 
+Estando presente, o método remove para remover a primeira ocorrência do elemento na lista. 
+
+2. Escreva um programa para inserir um elemento (posição específica) em uma lista. 
+R: Aqui o método contains(), verifiquei que a lista contém o elemento que quiz remover. Estando presente, usei o método remove() passando o valor do elemento como um objeto Integer usando Integer.valueOf().
+Isso é necessário porque o método remove() espera um objeto como parâmetro.
+
+3. Peça ao usuário dois números e exiba em ordem decrescente (suponha números diferentes).
+R: Criei uma lista de inteiros chamada lista e adicionamos alguns elementos a ela. Em seguida, defini o elemento que quis inserir, no caso, 
+o número x, e a posição em que queremos inseri-lo, no caso, a posição 2.
+
+4. Tem-se um conjunto de dados contendo a altura e o sexo (masculino, feminino) de 10 pessoas. Fazer um algoritmo que calcule e escreva:
+a. a maior e a menor altura do grupo;
+b. média de altura dos homens;
+c. o número de mulheres.
+
+R: Aqui utilizei a classe Scanner para solicitar ao usuário que insira os dois números. O método nextInt() utilizei para ler os números inteiros digitados.
+
+5. Criar um programa que calcule a média de salários de uma empresa, pedindo ao usuário a grade de funcionários e os salários, e devolvendo a média salarial.
+
+R: Aqui utilizei um loop for para iterar sobre as 10 pessoas e coletar seus dados de altura e sexo. As variáveis maiorAltura e menorAltura são inicializadas com valores extremos para garantir que a primeira altura será maior que a
+maior altura e menor que a menor altura, respectivamente.
+
+6. Crie um programa para verificar se o inteiro fornecido é um múltiplo de 5 e 7.
+
+R: Neste exercício, solicitei ao usuário que informe a quantidade de funcionários da empresa. Em seguida, usei um loop 
+for para iterar sobre cada funcionário e solicitar o salário correspondente.
+
+7. Crie um programa para exibir o inteiro fornecido pelo usuário na ordem inversa.
+
+R: Aqui utilizei a classe Scanner para solicitar ao usuário que insira um número inteiro. 
+Em seguida, utilizei um loop while para iterar até que o número se torne zero.
+
+8. Crie um programa para exibir todos os inteiros dentro do intervalo 100-150 cuja soma de todos os dígitos é um número par.
+
+R: Aqui utilizei um loop for para iterar sobre todos os inteiros no intervalo de 100 a 150.
+Para cada número, calculei a soma de todos os seus dígitos usando um loop while.
+
+9. Crie um programa para exibir a soma de 20 números usando uma matriz.
+
+R: Aqui declarei uma matriz de inteiros chamada numeros com tamanho 20. 
+
+10. Criar um vetor A com 10 elementos inteiros. Implementar um programa que defina e escreva a média aritmética simples dos elementos ímpares armazenados neste vetor.
+
+R: Aqui declarei um vetor de inteiros chamado vetorA com 10 elementos. Em seguida, utilizei um loop for para percorrer cada elemento do vetor.
+
+11. Ler um vetor A com 10 elementos inteiros correspondentes as idades de um grupo de pessoas. Escreva um programa que determine e escreva a menor 
+e a maior idades e suas respectivas posições.
+
+R: Aqui declarei um vetor de inteiros chamado vetorA com tamanho 10 para armazenar as idades. Utilizei um loop for para solicitar ao
+usuário que digite as 10 idades e as armazenamos no vetor.
+
+12. Ler um vetor A com 20 elementos. Construir dois vetores B e C, sendo que nos vetor B e C serão armazenados o valores pares e ímpares de A, respectivamente.
+R: Aqui declarei três vetores: vetorA, vetorB e vetorC, todos com tamanho 20. 
